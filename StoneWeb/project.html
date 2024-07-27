@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR辨識照片</title>
+    <style>
+        body {
+            margin: 0;
+            background: url('background.png') no-repeat center center fixed; 
+            background-size: cover; /* 讓背景圖片覆蓋整個螢幕 */
+            color: #ffffff; /* 白色字體顏色碼 */
+            overflow-y: auto; /* 啟用垂直滾動條 */
+        }
+
+        .content {
+            text-align: center;
+            padding: 20px; /* 添加內容的內邊距 */
+        }
+
+        .content img {
+            display: block;
+            margin: 100px auto; /* 設置圖片的邊距，使其在水平方向上置中並增加上下間距 */
+            max-width: 100%; /* 讓圖片在手機上自動縮小，不超出螢幕寬度 */
+            height: auto; /* 保持圖片的原始高寬比 */
+        }
+
+        .top-text {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around; /* 分布空間以平均方式間隔按鈕 */
+        }
+        .button {
+            background-color: #ffffff; /* 白色背景 */
+            color: rgb(0, 0, 0); /* 黑色文字 */
+            padding: 7px 10px; /* 調整內邊距 */
+            text-align: center;
+            display: inline-block;
+            font-size: 16px; /* 調整字體大小 */
+            margin-right: 3%; /* 調整按鈕周圍的邊距 */
+            border: 2px solid #1CAAD9; /* 調整邊框顏色和寬度 */
+            border-radius: 20px; /* 圓角 */
+            cursor: pointer;
+            text-decoration: none; /* 移除按鈕的下劃線 */
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* 增加過渡效果 */
+            box-shadow: 0 2px 1px rgb(104, 104, 255); /* 添加浮凸效果 */
+        }
+        .buttonPC {
+            background-color: #6d42fa; /* 白色背景 */
+            color: rgb(255, 255, 255); /* 黑色文字 */
+            padding: 7px 10px; /* 調整內邊距 */
+            text-align: center;
+            display: inline-block;
+            font-size: 16px; /* 調整字體大小 */
+            margin-right: 3%; /* 調整按鈕周圍的邊距 */
+            border: 2px solid #1CAAD9; /* 調整邊框顏色和寬度 */
+            border-radius: 20px; /* 圓角 */
+            cursor: pointer;
+            text-decoration: none; /* 移除按鈕的下劃線 */
+            transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* 增加過渡效果 */
+            box-shadow: 0 2px 1px rgb(104, 104, 255); /* 添加浮凸效果 */
+        }
+        .button:hover {
+            background-color: #1CAAD9; /* 懸停時改變背景顏色 */
+            color: #ffffff; /* 懸停時改變文字顏色 */
+            border-color: #ffffff; /* 懸停時改變邊框顏色 */
+        }
+        .button:active {
+            background-color: #0073e6; /* 點擊時改變背景顏色 */
+            color: #ffffff; /* 點擊時改變文字顏色 */
+            border-color: #0073e6; /* 點擊時改變邊框顏色 */
+        }
+        .buttonPC:hover {
+            background-color: #1CAAD9; /* 懸停時改變背景顏色 */
+            color: #ffffff; /* 懸停時改變文字顏色 */
+            border-color: #ffffff; /* 懸停時改變邊框顏色 */
+        }
+        .buttonPC:active {
+            background-color: #0073e6; /* 點擊時改變背景顏色 */
+            color: #ffffff; /* 點擊時改變文字顏色 */
+            border-color: #0073e6; /* 點擊時改變邊框顏色 */
+        }
+        .name{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+    <h1>作品照片</h1> 
+    <p class="Text">以下照片可進行 AR 的互動功能（此為手機版網頁）</p>
+    <hr>
+    <h3>作者/所有權人:游清和(風中游)</h3>
+    <p class="name">網頁製作：董哲安／吳依蓁／韓育欣</p>
+    <a href="Introduction.html" class="button">作品介紹</a> <!-- 將按鈕設置為連結到另一個網頁 -->
+    <a href="3D.html" class="button">作品觀賞</a>
+    <a href="IntroductionPC.html" class="buttonPC">電腦版</a>
+
+    <img src="1.jpg" width="480" height="649">
+    <img src="2.jpg" width="480" height="649"> 
+    <img src="3.jpg" width="480" height="649">
+    <img src="4.jpg" width="480" height="649">
+    <img src="5.jpg" width="480" height="649">
+    <img src="6.jpg" width="480" height="649">
+    <img src="7.jpg" width="480" height="649">
+    <img src="8.jpg" width="480" height="649">
+    <img src="9.jpg" width="480" height="649">
+    <img src="10.jpg" width="480" height="649">
+    <img src="11.jpg" width="480" height="649">
+    <img src="12.jpg" width="480" height="649">
+    <img src="13.jpg" width="480" height="649">
+    <img src="14.jpg" width="480" height="649">
+    <img src="15.jpg" width="480" height="649">
+    <hr>
+</div>
+
+</body>
+</html>
